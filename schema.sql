@@ -3,7 +3,7 @@
 CREATE TABLE animals (id INT, name CHAR(250), date_of_birth DATE, escape_attempts INT, neutered BOOLEAN, weight_kg DECIMAL);
 ALTER TABLE animals ADD COLUMN species CHAR(250);
 
-CREATE TABLE owners (id SERIAL PRIMARY KEY, full_name CHAR(250) NOT NULL, age INT);
+CREATE TABLE owners (id SERIAL PRIMARY KEY, full_name CHAR(250), age INT);
 
 CREATE TABLE species (id SERIAL PRIMARY KEY, name CHAR(250) NOT NULL);
 

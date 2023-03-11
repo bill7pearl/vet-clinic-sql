@@ -13,7 +13,8 @@ INSERT INTO animals VALUES  (6, 'Charmander', 'Feb 8, 2020', 0, 'false', -11),
                             (11, 'Blossom', 'Oct 13, 1998', 3, 'true', 17),
                             (12, 'Ditto', 'May 14, 2022', 4, 'true', 22);
 
-INSERT INTO owners (full_name, age) VALUES ('Sam Smith', 34),('Jennifer Orwell', 19),
+INSERT INTO owners (full_name, age) VALUES ('Sam Smith', 34),
+                                           ('Jennifer Orwell', 19),
                                            ('Bob', 45),
                                            ('Melody', 77),
                                            ('Dean Winchester', 14),
